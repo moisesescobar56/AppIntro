@@ -16,22 +16,7 @@ export default function CalculadoraScreen(){
 
     return(
         <View style={styles.container}>
-            <TextInput 
-                value={num1}
-                onChangeText={setNum1}
-                style={styles.input}
-                keyboardType="numeric"
-                placeholder="Primer numero" />
-            <TextInput 
-                value={num2}
-                onChangeText={setNum2}
-                style={styles.input}
-                keyboardType="numeric"
-                placeholder="Segundo numero" />
-            <Button onPress={calcular}
-                color="#555" 
-                title="Calcular" />
-            <Text style={styles.text}> Resultado: {resultado} </Text>     
+            <Text style={styles.text}> App de modulo {resultado} </Text>     
         </View>
     );
 }
@@ -55,7 +40,7 @@ const styles = StyleSheet.create({
   text: {
     marginTop: 20,
     fontSize: 20,
-    textAlign: "justify",
+    textAlign: "center",
     color: "#000",
   }
 });
