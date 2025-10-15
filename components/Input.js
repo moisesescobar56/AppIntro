@@ -2,7 +2,7 @@ import { TextInput, Text, View, StyleSheet } from "react-native";
 
 export default function Input({ label, placeholder, type = "default", editable = true, lines = 1, value = "", onChangeText }){
     return (
-        <View style={styles.container}>
+        <View style={styles.container} >
             <Text style={styles.label} >{label}</Text>
             <TextInput 
                 placeholder={placeholder}
