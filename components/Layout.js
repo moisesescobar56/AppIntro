@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
     flex: 1, // Ocupa todo el espacio.
     backgroundColor: "#f5f5f5", // Fondo gris claro.
     justifyContent: "center", // Centra el contenido verticalmente.
-    alignItems: "center", // Centra el contenido horizontalmente.
+    alignItems: "stretch", // Centra el contenido horizontalmente.
   },
   title: {
     color: "#000", // Texto blanco.
